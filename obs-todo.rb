@@ -68,7 +68,7 @@ def write_todo_file(filepath, todo_lines)
   end
 end 
 
-notes_path = '/Users/devlon.d/Dropbox/brain-temp/' # "#{ENV['HOME']}/Notes/"
+notes_path = '/Users/devlon.d/obsidian-vault/' # "#{ENV['HOME']}/Notes/"
 todo_filepath = notes_path + 'TODO.md'
 
 inbox_files = read_inbox_directory(notes_path + "inbox/")

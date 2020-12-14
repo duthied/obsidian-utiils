@@ -18,7 +18,7 @@ for i in 1..4
 end
 
 filename = "#{days_of_the_week[0]}".gsub("-", "_") + "-#{days_of_the_week[4].month}_#{days_of_the_week[4].day}.md"
-filepath = '/Users/devlon.d/Dropbox/brain-temp/weekly/' # "#{ENV['HOME']}/Notes/"
+filepath = '/Users/devlon.d/obsidian-vault/weekly/' # "#{ENV['HOME']}/Notes/"
 
 # create content
 weekly_template = <<~WEEKLY

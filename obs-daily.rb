@@ -3,7 +3,7 @@ require 'date'
 
 # copied from https://github.com/mm53bar/obsidian_utils/blob/master/journal.rb
 
-filepath = '/Users/devlon.d/Dropbox/brain-temp/daily/' # "#{ENV['HOME']}/Notes/"
+filepath = '/Users/devlon.d/obsidian-vault/daily/' # "#{ENV['HOME']}/Notes/"
 today = Date.today
 today_name = Time.now.strftime("%A")
 filename = today.strftime('%Y-%m-%d.md')
