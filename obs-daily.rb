@@ -1,5 +1,6 @@
 #!/usr/bin/env ruby
 require 'date'
+require 'json'
 
 # copied from https://github.com/mm53bar/obsidian_utils/blob/master/journal.rb
 # TODO: make env. var.
@@ -17,6 +18,25 @@ weather_raw = `curl -s https://weather.gc.ca/rss/city/on-5_e.xml`
 today_weather_raw = weather_raw.split('<entry>').slice(3..4).join
 today_weather_list = today_weather_raw.scan(/.*<title>(.*)<\/title>/).flatten
 
+# load content from the razors file
+# select random element and return it as a string
+def get_razor()
+  file = File.read('./razors.json')
+  razors = JSON.parse(file)
+
+  random_razor = razors["razors"].sample
+
+  razor_content = random_razor["title"]
+  razor_content.concat("\n")
+
+  random_razor["lines"].each do |content|
+    razor_content.concat(content["line"])
+    razor_content.concat("\n")
+  end
+
+  return razor_content
+end
+
 # get daily-cal data
 puts "Fetching daily calendar...."
 
@@ -28,6 +48,8 @@ cmd = 'icalBuddy -npn -nc -eep "*" eventsToday'
 daily_cal = `#{cmd}`
 daily_cal.gsub! "•", "" # remove dots 
 
+daily_razor = get_razor()
+
 # create content
 journal_template = <<~JOURNAL
   # Daily entry for #{today_name}, #{today}
@@ -36,6 +58,7 @@ journal_template = <<~JOURNAL
   [[the radar]]
   > Review at the start of the day to build my stand up post
 
+  #{daily_razor}
   ### Strategy items:
   1.
   2.
