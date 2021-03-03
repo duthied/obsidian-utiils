@@ -2,7 +2,7 @@
 require 'date'
 
 # copied from https://github.com/mm53bar/obsidian_utils/blob/master/journal.rb
-
+# TODO: make env. var.
 filepath = '/Users/devlon.d/obsidian-vault/daily/' # "#{ENV['HOME']}/Notes/"
 today = Date.today
 today_name = Time.now.strftime("%A")
