@@ -68,6 +68,7 @@ def write_todo_file(filepath, todo_lines)
   end
 end 
 
+# TODO: make env. var
 notes_path = '/Users/devlon.d/obsidian-vault/' # "#{ENV['HOME']}/Notes/"
 todo_filepath = notes_path + 'TODO.md'
 
