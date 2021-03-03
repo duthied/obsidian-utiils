@@ -1,0 +1,109 @@
+{
+  "razors": [
+    {
+      "title": "Bezos' Razors",
+      "lines": [
+          {"line": "If unsure what action to take, let your 80-year-old self make it."},
+          {"line": "If unsure who to work with, pick the person that has the best chances of breaking you out of a 3rd world prison."}
+        ]
+    },{
+    "title": "Skinner's Law",
+    "lines": [
+        {"line": "If procrastinating on an item, you only have 2 options:"},
+        {"line": "Make the pain of not doing it greater than the pain of doing it."},
+        {"line": "Make the pleasure of doing it greater than the pleasure of not doing it."}
+      ]
+    },{
+    "title": "Luck Razor",
+    "lines": [
+        {"line": "If stuck with 2 equal options, pick the one that feels like it will produce the most luck later down the line."}
+      ]
+    },{
+    "title": "Bragging Razor",
+    "lines": [
+        {"line": "If someone brags about their success or happiness, assume it’s half what they claim."},
+        {"line": "If someone downplays their success or happiness, assume it’s double what they claim."}
+      ]
+    },{
+    "title": "Hofstadter’s Law",
+    "lines": [
+        {"line": "It always takes longer than you expect, even when you take into account Hofstadter’s Law."},
+        {"line": "Every project costs 2x as much and takes 3x as long even when you factor this into your projections."}
+      ]
+    },{
+    "title": "Elon's Law",
+    "lines": [
+        {"line": "If you have a project, combat Hofstader's Law by setting a ridiculously ambitious deadline."},
+        {"line": "Even if it takes 3x longer than the deadline, you're ahead of everyone else."}
+      ]
+    },{
+    "title": "Naval's Razors",
+    "lines": [
+        {"line": "If you have 2 choices to make and it's 50/50, take the path that’s more painful in the short term."},
+        {"line": "If a task is worth less than your ambitious hourly rate outsource it, automate it or delete it."}
+      ]
+    },{
+    "title": "Munger's Law",
+    "lines": [
+        {"line": "Never allow yourself to have an opinion on a subject unless you can state the opposing argument better than the opposition can."}
+      ]
+    },{
+    "title": "Hitchen's Razor",
+    "lines": [
+        {"line": "What can be asserted without evidence can be dismissed without evidence."}
+      ]
+    },{
+    "title": "Newton's Flaming Laser Sword",
+    "lines": [
+        {"line": "If something can be settled by experiment or observation, then it is not worthy of debate."}
+      ]
+    },{
+    "title": "Joe Rogan's Razors",
+    "lines": [
+        {"line": "If unsure what action to take ask what the hero in the movie would do."},
+        {"line": "If you're intensely passionate about something and nobody around you is interested in it assume the scale of the internet might help you find them."}
+      ]
+    },{
+    "title": "Taleb's Surgeon",
+    "lines": [
+        {"line": "If presented with two seemingly equal candidates for a role, pick the one with the least amount of charisma."},
+        {"line": "The uncharismatic one has got there despite their lack of charisma."},
+        {"line": "The charismatic one has got there with the aid of their charisma."}
+      ]
+    },{
+    "title": "Discomfort Razor",
+    "lines": [
+        {"line": "The more uncomfortable the activity, the more likely it will lead to growth."},
+        {"line": "The more comfortable the activity, the more likely it will lead to stagnation."},
+        {"line": "1000 uncomfortable hours > 10,000 comfortable hours"}
+      ]
+    },{
+    "title": "Checkhov's Gun",
+    "lines": [
+        {"line": "When telling a story, if it's non-essential don't include it."},
+        {"line": "If you say in the 1st chapter that there is a rifle hanging on the wall, in the 2nd or 3rd chapter it absolutely must go off. If it's not going to be fired, it shouldn't be hanging there."}
+      ]
+    },{
+    "title": "Occam's Razor",
+    "lines": [
+        {"line": "Simple assumptions are more likely to be correct than complex assumptions."}
+      ]
+    },{
+    "title": "Avoid Occam's Duct Tape",
+    "lines": [
+        {"line": "Someone who approaches a problem with a ridiculously large number of assumptions."}
+      ]
+    },{
+    "title": "Walt Disney's Rule",
+    "lines": [
+        {"line": "If struggling to think clearly about a subject, draw it out."}
+      ]
+    },{
+    "title": "Schwarzeneggers' Rule",
+    "lines": [
+        {"line": "Never need to monetize your artistic pursuits. You won't have to sacrifice your inner joy and vision for a payday."},
+        {"line": "Arnold made millions from property and D2C bodybuilding guides so he never had to say yes to acting gigs he didn't like."}
+      ]
+    } 
+  ]
+}
