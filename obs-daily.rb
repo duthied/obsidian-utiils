@@ -58,8 +58,10 @@ journal_template = <<~JOURNAL
   [[the radar]]
   > Review at the start of the day to build my stand up post
 
+  [March's Mindfulness Calendar](https://www.actionforhappiness.org/media/980902/march_2021.jpg)
+
   ### #{daily_razor}
-  
+
   ### Strategy items:
   1.
   2.
