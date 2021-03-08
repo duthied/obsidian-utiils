@@ -21,7 +21,7 @@ today_weather_list = today_weather_raw.scan(/.*<title>(.*)<\/title>/).flatten
 # load content from the razors file
 # select random element and return it as a string
 def get_razor()
-  file = File.read('./razors.json')
+  file = File.read('/Users/devlon.d/src/obsidian_utils-master/razors.json')
   razors = JSON.parse(file)
 
   random_razor = razors["razors"].sample
