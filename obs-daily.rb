@@ -14,9 +14,9 @@ this_week_monday = today - (today.cwday-1)
 week_filename = this_week + '.md'
 
 # get weather data
-weather_raw = `curl -s https://weather.gc.ca/rss/city/on-5_e.xml`
-today_weather_raw = weather_raw.split('<entry>').slice(3..4).join
-today_weather_list = today_weather_raw.scan(/.*<title>(.*)<\/title>/).flatten
+# weather_raw = `curl -s https://weather.gc.ca/rss/city/on-5_e.xml`
+# today_weather_raw = weather_raw.split('<entry>').slice(3..4).join
+# today_weather_list = today_weather_raw.scan(/.*<title>(.*)<\/title>/).flatten
 
 # load content from the razors file
 # select random element and return it as a string
@@ -83,11 +83,7 @@ journal_template = <<~JOURNAL
   ### Items from your calendar
   #{daily_cal}
 
-  #### Weather
-  #{today_weather_list[0]}
-  #{today_weather_list[1]}
-
-  #### Health Journal {today.strftime('%Y-%m-%d')}
+  
   -
 JOURNAL
 
