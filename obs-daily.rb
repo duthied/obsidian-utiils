@@ -4,7 +4,8 @@ require 'json'
 
 # copied from https://github.com/mm53bar/obsidian_utils/blob/master/journal.rb
 # TODO: make env. var.
-filepath = '/Users/devlon.d/obsidian-vault/daily/' # "#{ENV['HOME']}/Notes/"
+# filepath = '/Users/devlon.d/obsidian-vault/daily/' # "#{ENV['HOME']}/Notes/"
+filepath = '/Users/devlon.d/Library/Mobile Documents/iCloud~md~obsidian/Documents/duthied-ipad/daily/'
 today = Date.today
 today_name = Time.now.strftime("%A")
 filename = today.strftime('%Y-%m-%d.md')
